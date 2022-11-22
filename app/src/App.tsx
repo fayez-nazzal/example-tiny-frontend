@@ -1,5 +1,5 @@
 import ExampleTinyFrontend from "../lib";
 
-const App = () => <ExampleTinyFrontend name={"Test"} />;
+const App = () => <ExampleTinyFrontend withCoffee name={"Test"} />;
 
 export default App;

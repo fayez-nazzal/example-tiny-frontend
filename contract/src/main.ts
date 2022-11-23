@@ -1,8 +1,8 @@
 import {
   loadTinyFrontendClient,
   loadTinyFrontendServer,
-} from "@fayeznazzal/client";
-import { TinyFrontendServerResponse } from "@fayeznazzal/client/dist/load.server";
+} from "@tiny-frontend/client";
+import { TinyFrontendServerResponse } from "@tiny-frontend/client/dist/load.server";
 import React from "react";
 
 import type exportedModule from "../../app/lib/index";

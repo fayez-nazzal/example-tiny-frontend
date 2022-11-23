@@ -1,7 +1,6 @@
 name: Publish example-tiny-frontend-contract npm package
 on:
-  release:
-    types: [created]
+  push:
 defaults:
   run:
     working-directory: contract

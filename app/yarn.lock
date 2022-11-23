@@ -381,9 +381,9 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tiny-frontend/deploy-cloudflare@^0.0.3":
+"@fayeznazzal/deploy-cloudflare@^0.0.3":
   version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@tiny-frontend/deploy-cloudflare/-/deploy-cloudflare-0.0.3.tgz#123428b9a4968e7fc3a2e1a13bc2fe3097f8b3cb"
+  resolved "https://registry.yarnpkg.com/@fayeznazzal/deploy-cloudflare/-/deploy-cloudflare-0.0.3.tgz#123428b9a4968e7fc3a2e1a13bc2fe3097f8b3cb"
   integrity sha512-BCEUvWpsQBQycAZ7Cam6Is2V7dcdFP8dYn3ItNW1LEsBVXr8qky8jJD3d6g5/C/vkrkpuFo5vz1VIcsJMlZQsg==
   dependencies:
     node-fetch "^3.2.0"

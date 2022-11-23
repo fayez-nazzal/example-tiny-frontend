@@ -1,4 +1,4 @@
-name: Publish example-tiny-frontend-contract npm package
+name: Publish @fayeznazzal/example-tiny-frontend-contract npm package
 on:
   push:
 defaults:

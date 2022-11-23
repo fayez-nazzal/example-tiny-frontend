@@ -1,4 +1,4 @@
-import { deployBundle } from "@tiny-frontend/deploy-cloudflare";
+import { deployBundle } from "@fayeznazzal/deploy-cloudflare";
 import dotenv from "dotenv";
 import { readFile } from "fs/promises";
 

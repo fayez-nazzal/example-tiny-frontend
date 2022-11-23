@@ -1,0 +1,79 @@
+Arguments: 
+  /home/fayez/.nvm/versions/node/v16.17.0/bin/node /home/fayez/.yarn/bin/yarn.js
+
+PATH: 
+  /home/fayez/.yarn/bin:/home/fayez/.config/yarn/global/node_modules/.bin:/home/fayez/.rbenv/shims:/home/fayez/.rbenv/plugins/ruby-build/bin:/home/fayez/.rbenv/shims:/home/fayez/.rbenv/bin:/home/fayez/.yarn/bin:/home/fayez/.config/yarn/global/node_modules/.bin:/home/fayez/.rbenv/shims:/home/fayez/.rbenv/plugins/ruby-build/bin:/home/fayez/.rbenv/shims:/home/fayez/.rbenv/bin:/home/fayez/.nvm/versions/node/v16.17.0/bin:/home/fayez/.rvm/gems/ruby-2.4.6/bin:/home/fayez/.rvm/gems/ruby-2.4.6@global/bin:/home/fayez/.rvm/rubies/ruby-2.4.6/bin:/home/fayez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fayez/.rvm/bin:/home/fayez/.rvm/bin:/home/fayez/Android/Sdk/platform-tools:/home/fayez/.rvm/bin:/home/fayez/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fayeznazzal%2fclient: Not found
+      at Request.params.callback [as _callback] (/home/fayez/.yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/fayez/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/fayez/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/fayez/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@fayeznazzal/example-tiny-frontend-contract",
+    "tinyFrontendName": "ExampleTinyFrontend",
+    "version": "0.0.523",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build && tsc --emitDeclarationOnly",
+      "preview": "vite preview"
+    },
+    "types": "./dist/contract/src/main.d.ts",
+    "files": [
+      "dist"
+    ],
+    "main": "./dist/example-tiny-frontend-contract.umd.js",
+    "module": "./dist/example-tiny-frontend-contract.es.js",
+    "exports": {
+      ".": {
+        "import": "./dist/example-tiny-frontend-contract.es.js",
+        "require": "./dist/example-tiny-frontend-contract.umd.js"
+      }
+    },
+    "eslintConfig": {
+      "extends": [
+        "plugin:@cazoo/eslint/react"
+      ],
+      "rules": {
+        "react/react-in-jsx-scope": "off"
+      }
+    },
+    "devDependencies": {
+      "@cazoo/eslint-plugin-eslint": "^1.0.2",
+      "@types/react": "^17.0.2",
+      "eslint": "^7.32.0",
+      "react": "^17.0.2",
+      "typescript": "^4.4.4",
+      "vite": "^2.7.2"
+    },
+    "dependencies": {
+      "@fayeznazzal/client": "^0.0.9"
+    },
+    "peerDependencies": {
+      "react": "^17.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
